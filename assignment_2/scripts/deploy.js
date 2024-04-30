@@ -7,9 +7,9 @@ async function main() {
       [true, false, true, true, false] // Corresponding initial answers
     );
   
-    await myQuiz.deployed();
+    //await myQuiz.deployed();
   
-    console.log("MyQuiz deployed to:", myQuiz.address);
+    console.log("MyQuiz deployed to:", myQuiz.target);
   }
   
   main()
